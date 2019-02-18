@@ -1,0 +1,20 @@
+.star-container {
+  display: flex;
+  align-items: center;
+  width: 200rpx;
+}
+
+.star-star {
+  display: flex;
+  margin-right: 24rpx;
+}
+
+.star-star image {
+  height: 17rpx;
+  width: 17rpx;
+  padding: 3rpx;
+}
+
+.star-score {
+  font-size: 20rpx;
+}

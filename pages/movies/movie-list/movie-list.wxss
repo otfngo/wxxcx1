@@ -1,0 +1,31 @@
+@import "../movie/movie.wxss";
+
+.movie-list-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20rpx 0;
+  border-bottom: 1px solid gainsboro;
+}
+
+.movie-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 25rpx 10rpx;
+}
+
+.movie-list-header .more {
+  display: flex;
+  align-items: center;
+}
+
+.movie-list-header .more-icon {
+  width: 9rpx;
+  height: 16rpx;
+  padding-left: 10rpx;
+}
+
+.movie-list-movies {
+  display: flex;
+  justify-content: space-between;
+}
