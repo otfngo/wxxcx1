@@ -15,7 +15,7 @@ const formatNumber = n => {
 }
 
 const formatStar = count => {
-  const num = Math.floor(count/10)
+  const num = Math.floor(count / 10)
   return [1, 2, 3, 4, 5].map(item => item <= num ? 1 : 0)
 }
 
